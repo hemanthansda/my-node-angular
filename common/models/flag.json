@@ -1,0 +1,1 @@
+{"name":"Flag","plural":"Flags","base":"PersistedModel","idInjection":true,"options":{"validateUpsert":true},"properties":{"date":{"type":"string","required":true},"title":{"type":"string","required":true},"text":{"type":"string"}},"validations":[],"relations":{},"acls":[],"methods":[]}

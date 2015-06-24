@@ -1,0 +1,13 @@
+<div class="fm-panel">
+  <h4>Graph Demo</h4>
+  <div>
+<ul>
+  <li ng-repeat="g in graph">{{ showData(g.date, g.value) }}</li>
+</ul>
+  </div>
+  <div>
+  	<div class="row">
+         <highchart id="chart1" config="chartConfig" class="span10"></highchart>
+    </div>
+  </div>
+</div>
